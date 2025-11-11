@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Navbar from "./components/ModernNavbar"
 import Footer from "./components/Footer"
 import Floatingbuttons from "./components/FloatingButtons" 
+import About from './pages/About'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
     <Navbar/>
     <Routes>
       <Route path='/' element={<Home/>}/>
+         <Route path='/about' element={<About/>}/>
     </Routes>
     <Floatingbuttons/>
     <Footer/>

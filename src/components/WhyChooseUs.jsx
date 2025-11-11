@@ -61,7 +61,7 @@ export default function WhyChooseUs() {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="absolute top-6 right-6 z-20"
       >
-        <div className="relative flex mt-5 items-center gap-2 bg-gradient-to-r from-blue-400 to-[#D4AF37] px-6 py-3 rounded-full shadow-lg shadow-blue-500/30 border border-white/20 backdrop-blur-md">
+        <div className="relative flex   items-center gap-2 bg-gradient-to-r from-blue-400 to-[#D4AF37] px-6 py-3 rounded-full shadow-lg shadow-blue-500/30 border border-white/20 backdrop-blur-md">
           <FaCrown className="text-white text-xl animate-pulse" />
           <span className="text-white font-[Orbitron] tracking-wide text-sm md:text-base">
             Premium Excellence
