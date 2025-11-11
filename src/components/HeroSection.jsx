@@ -113,7 +113,7 @@ const HeroSection = () => {
                 <h3
                   className={`leading-tight transition-all ${
                     isActive
-                      ? "text-2xl xl:text-[28px] font-semibold text-white"
+                      ? "text-xl xl:text-[10px] font-semibold text-white"
                       : "text-lg text-gray-300 group-hover:text-white"
                   }`}
                 >

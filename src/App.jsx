@@ -5,6 +5,7 @@ import Navbar from "./components/ModernNavbar"
 import Footer from "./components/Footer"
 import Floatingbuttons from "./components/FloatingButtons" 
 import About from './pages/About'
+import ContactPage from './pages/Contact'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
     <Routes>
       <Route path='/' element={<Home/>}/>
          <Route path='/about' element={<About/>}/>
+         <Route path='/contact' element={<ContactPage/>}/>
     </Routes>
     <Floatingbuttons/>
     <Footer/>

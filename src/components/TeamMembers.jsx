@@ -20,7 +20,7 @@ const team = [
 
 const TeamMembers = () => {
   return (
-    <section className="relative w-full py-24 px-6 bg-gradient-to-br from-white via-slate-50 to-blue-50 text-gray-800 font-body overflow-hidden">
+    <section className="relative w-full py-10 px-6 bg-gradient-to-br from-white via-slate-50 to-blue-50 text-gray-800 font-body overflow-hidden">
       {/* Heading */}
       <div className="max-w-7xl mx-auto text-center mb-16 relative z-10">
         <motion.h2
@@ -30,7 +30,7 @@ const TeamMembers = () => {
           viewport={{ once: true }}
           className="text-4xl md:text-5xl font-extrabold tracking-tight"
         >
-          Meet the <span className="text-blue-600">Core Team</span>
+          Meet the <span className="text-blue-900">Core Team</span>
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -61,7 +61,7 @@ const TeamMembers = () => {
             <motion.div
               animate={{ y: [0, -8, 0] }}
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-              className="text-4xl text-blue-600 mb-4 relative z-10"
+              className="text-4xl text-blue-900 mb-4 relative z-10"
             >
               <span className="inline-block bg-blue-100 p-4 rounded-full shadow-inner group-hover:bg-blue-600 group-hover:text-white transition duration-500">
                 {member.icon}
